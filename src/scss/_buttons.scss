@@ -1,0 +1,28 @@
+.btn {
+    display: inline-block;
+    
+    &-saiba-mais {
+        font-family: 'Open Sans-semibold';
+        font-size: .8rem;
+        border: 1px solid $white;
+        border-radius: 4px;
+        color: $white;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px 30px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+        -webkit-transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+
+        &:hover {
+            color: $blue-royal;
+            border-color: $blue-royal;
+        }
+        &:active {
+            outline: 0;
+        }
+    }
+}

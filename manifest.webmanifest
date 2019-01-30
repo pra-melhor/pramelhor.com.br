@@ -1,0 +1,10 @@
+{
+    "name": "Pra Todos",
+    "short_name": "pratodos",
+    "lang": "pt-BR",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000",
+    "background_color": "#000",
+    "description": "Pra todos website."
+}

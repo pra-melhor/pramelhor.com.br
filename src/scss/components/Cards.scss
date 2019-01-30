@@ -1,0 +1,85 @@
+.cards {
+    position: relative;
+    padding: 80px 10px;
+    background-color: $white;
+    text-align: center;
+
+    .title,
+    .subtitle,
+    .text {
+        color: $font-color;
+    }
+    .subtitle {
+        margin-bottom: 60px;
+    }
+    .text {
+        margin: 10px 0;
+    }
+    &__list {
+        margin: 0 10px;
+    }
+    &__item {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 30px;
+        border: 2px solid $blue-light;
+        border-radius: 5px;
+
+        .title {
+            font-size: 1rem;
+            margin: 0;
+            line-height: 30px;
+            letter-spacing: 7px;
+        }
+    }
+    &__icon {
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 10px solid $white;
+        border-radius: 50%;
+        background-color: $blue-light;
+        box-shadow: 0 0 0 1px $blue-royal;
+    }
+}
+
+
+@media only screen and (min-width: 576px) {
+    .cards {
+        &__list {
+            max-width: 728px;
+        }
+        &__icon {
+            width: 20%;
+            padding: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cards {
+        &__list {
+            display: flex;
+            margin: 0 auto;
+        }
+        &__item {
+            margin: 0 10px 30px 10px;
+        }
+        &__icon {
+            width: 50%;
+            padding: 15px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .cards {
+        &__list {
+            max-width: 940px;
+        }
+        &__icon {
+            width: 35%;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.banner {
+    padding: 60px 0;
+    text-align: center;
+    background-image: -webkit-linear-gradient(270deg, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url("../img/banner.jpg");
+    background-image: linear-gradient(180deg, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url("../img/banner.jpg");
+    background-position: 0% 0%, 50% 50%;
+    background-size: auto, cover;
+
+    .title,
+    .subtitle {
+        font-family: 'Open Sans';
+        color: $white;
+    }
+    .title {
+        font-size: 2.5rem;
+        line-height: 60px;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
+    }
+    .subtitle {
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .banner {
+        padding: 119px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner {
+        .title {
+            font-size: 3rem;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .banner {
+        padding: 195px 0;
+
+        .title {
+            font-size: 3rem;
+        }
+    }
+}

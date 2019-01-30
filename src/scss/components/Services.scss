@@ -1,0 +1,71 @@
+.services {
+    position: relative;
+    padding: 80px 10px;
+    background-color: $services-bg;
+    text-align: center;
+    
+    .title,
+    .subtitle,
+    .text {
+        color: $white;
+    }
+    .subtitle {
+        margin-bottom: 60px;
+    }
+    .text {
+        margin: 10px 0 20px;
+    }
+    &__list {
+        margin: 0 10px;
+    }
+    &__item {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        text-align: center;
+
+        .title {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            line-height: 30px;
+            letter-spacing: 7px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 575px) {
+    .services {
+        &__list {
+            max-width: 728px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .services {
+        &__list {
+            display: flex;
+            margin: 0 auto;
+        }
+        &__item {
+            width: 50%;
+            margin: 0 10px 30px 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .services {
+        &__list {
+            max-width: 940px;
+        }
+    }
+}
