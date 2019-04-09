@@ -25,16 +25,16 @@ export default function Footer() {
 
                     <ul>
                         <li>
+                            <img className="footer__img" src="img/youtube.svg" alt="Youtube"/>
+                            <a href="https://www.youtube.com/channel/UCvOvFMH6mBxKjft_9P_wyaQ" className="footer__link footer__link--icon" target="_blank" rel="noopener">Youtube</a>
+                        </li>
+                        <li>
                             <img className="footer__img" src="img/twitter.svg" alt="Twitter"/>
-                            <a href="#" className="footer__link footer__link--icon" target="_blank" rel="noopener">Twitter</a>
+                            <a href="https://twitter.com/pramelhor_ag" className="footer__link footer__link--icon" target="_blank" rel="noopener">Twitter</a>
                         </li>
                         <li>
                             <img className="footer__img" src="img/github.svg" alt="Github"/>
-                            <a href="#" className="footer__link footer__link--icon" target="_blank" rel="noopener">Github</a>
-                        </li>
-                        <li>
-                            <img className="footer__img" src="img/youtube.svg" alt="Youtube"/>
-                            <a href="#" className="footer__link footer__link--icon" target="_blank" rel="noopener">Youtube</a>
+                            <a href="https://github.com/pra-melhor" className="footer__link footer__link--icon" target="_blank" rel="noopener">Github</a>
                         </li>
                     </ul>
                 </aside>
