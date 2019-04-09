@@ -1,6 +1,6 @@
-# Para Melhor
+# Pra Melhor
 
-Este projeto é uma adaptação do site: [Para Melhor](http://pra-melhor-project.webflow.io/)
+Este projeto é para o site: [Pra Melhor](https://www.pramelhor.com.br/)
 
 
 ## Stack Utilizada:
@@ -41,6 +41,7 @@ Após clonar e se posicionar na pasta do projeto:
 ├── manifest.webmanifest
 ├── node_modules
 ├── package.json
+├── README.md
 ├── dist
 │   ├── favicon.ico
 |   ├── fonts
@@ -49,7 +50,6 @@ Após clonar e se posicionar na pasta do projeto:
 │   ├── main.css
 |   ├── manifest.webmanifest
 │   └── bundle.js
-├── README.md
 ├── src
 │   ├── components
 |   ├── fonts
