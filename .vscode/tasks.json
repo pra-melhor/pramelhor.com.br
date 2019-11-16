@@ -8,7 +8,11 @@
             "script": "start",
             "problemMatcher": [
                 "$eslint-compact"
-            ]
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
