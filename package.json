@@ -12,7 +12,8 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
